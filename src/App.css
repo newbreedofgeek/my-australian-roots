@@ -1,0 +1,310 @@
+html, body {
+  font-size: 30px;
+  padding: 0;
+  margin: 0;
+  line-height: 1rem;
+}
+
+h1 {
+  font-size: 1.2rem;
+}
+
+h2 {
+  font-size: 1.5rem;
+}
+
+h3 {
+  font-size: 1.1rem;
+}
+
+h4 {
+  font-size: 1.1rem;
+}
+
+.smallest {
+  font-size: .7rem;
+}
+
+.noselect {
+  -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+     -khtml-user-select: none; /* Konqueror HTML */
+       -moz-user-select: none; /* Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+            user-select: none; /* Non-prefixed version, currently
+                                  supported by Chrome and Opera */
+}
+
+.btn-xl {
+  padding: 15px 21px;
+  font-size: 1rem;
+  line-height: 1.3333333;
+  border-radius: 6px;
+}
+
+.App {
+  text-align: left;
+  font-family: 'Abel', sans-serif;
+}
+
+.Header {
+  background-color: #f0e68c;
+  padding: 5px;
+}
+
+.Splash {
+  padding: 20px;
+}
+
+.createNow {
+  text-align: center;
+}
+
+.App-title {
+  font-size: 1em;
+}
+
+.example1 {
+  margin: auto;
+  width: 600px;
+  height: 500px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.Body {
+  min-height: 800px;
+}
+
+.Preview {
+  /*border-left: dotted 1px #CCC;*/
+}
+
+.Preview .title {
+  text-align: center;
+}
+
+.Preview .canvas {
+  position: relative;
+  margin: auto;
+  width: 600px;
+  height: 500px;
+}
+
+.Aus-Overlay {
+  position: absolute;
+  top: 0;
+  left: -3px;
+  margin: auto;
+  width: 600px;
+  height: 500px;
+  /*border: solid 2px #333;*/
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+}
+
+.Aus-Starts-Overlay {
+  position: absolute;
+  top: 0;
+  margin: auto;
+  width: 597px;
+  height: 500px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: right center;
+  opacity: .45;
+}
+
+.FlagsHolder {
+  position: absolute;
+  top: 0;
+}
+
+.Flags {
+  margin: auto;
+  background-repeat: no-repeat;
+  width: 597px;
+  background-size: cover;
+}
+
+
+.Sticker-Maker {
+  margin-top: 10px;
+  padding: 20px;
+}
+
+.Sticker-Maker .Intro {
+  margin-top: 30px;
+  font-weight: bold;
+}
+
+.Sticker-Maker .subTitle {
+  font-size: .8rem;
+  font-weight: normal;
+  margin-top: 10px;
+}
+
+
+.Sticker-Maker .pickCountries {
+  margin-top: 15px;
+  font-size: .8rem;
+}
+
+.Sticker-Maker .expl {
+  font-size: .7rem;
+}
+
+.Sticker-Maker .selectBox {
+  margin-top: 20px;
+  position: relative;
+  z-index: 100;
+}
+
+.Sticker-Maker .customiseMore {
+  margin-top: 30px;
+  background-color: #EEE;
+  padding: 20px;
+}
+
+.Sticker-Maker .customiseMore .showMyRoots, .Sticker-Maker .customiseMore .showMyRoots .removeStarOverlay{
+  margin-bottom: 20px;
+}
+
+.Sticker-Maker .customiseMore .subTitle {
+  font-size: .5rem;
+  margin-bottom: 10px;
+}
+
+.Sticker-Maker .shuffleArray {
+  margin-top: 20px;
+}
+
+.Sticker-Maker .Preview .title {
+  margin-bottom: 15px;
+}
+
+.Sticker-Maker .Preview .lovingTag {
+  position: absolute;
+  bottom: 85px;
+  left: 14px;
+  color: #333;
+  font-size: 1.4rem;
+  color: #fff;
+
+  font-family: 'Gloria Hallelujah', cursive;
+  /*font-family: 'Amatic SC', cursive;*/
+  /*font-family: 'Comfortaa', cursive;*/
+}
+
+.Sticker-Maker .Preview .andRootsNameTag {
+  position: absolute;
+  bottom: 42px;
+  left: 15px;
+  font-size: .5rem;
+  font-family: 'Comfortaa', cursive;
+  color: #CCC;
+}
+
+.Sticker-Maker .Preview .andRootsListTag {
+  position: absolute;
+  bottom: 4px;
+  left: 16px;
+  display: flex;
+  justify-content: flex-start;
+  width: 200px;
+}
+
+.Sticker-Maker .Preview .rootFlagSml {
+  width: 50px;
+  height: 40px;
+  background-repeat: no-repeat;
+  background-size: 50px 30px;
+  margin-right: 5px;
+}
+
+
+.orderTotal {
+  margin-top: 20px;
+  font-size: 1rem;
+  background-color: #EEE;
+  padding: 20px;
+}
+
+.orderTotal .discount {
+  font-size: .7rem;
+  font-weight: bold;
+  color: green;
+}
+
+.orderTotal .price {
+  font-size: 1.2rem;
+  margin: 10px auto;
+}
+
+.qtySelector {
+  margin-top: 30px;
+}
+
+.qtySelector .upDownTool {
+  display: flex;
+  width: 250px;
+  height: 100px;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 10px;
+}
+
+.qtySelector .upDownTool .qty {
+  font-size: 3rem;
+}
+
+.qtySelector .upDownTool .go {
+  cursor: pointer;
+  border: solid 1px #CCC;
+  padding: 5px;
+}
+
+.nextPrevButtons {
+}
+
+.paypalBtn {
+  margin-top: 10px;
+  width: 300px;
+}
+
+.Sticker-Maker .Step-2 {}
+
+
+
+.Sticker-Maker .Step-3 {}
+
+.yourDetails {
+  font-size: .8rem;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.yourDetails .subTitle {
+  font-size: 1rem;
+  margin-bottom: 15px;
+  margin-top: 15px;
+}
+
+.yourDetails .subTitleSecond {
+  font-size: 1rem;
+  margin-bottom: 15px;
+  margin-top: 40px;
+}
+
+.yourDetails .small {
+  font-size: .5rem;
+}
+
+
+.Footer {
+  background-color: #333;
+  height: 200px;
+  color: #CCC;
+  margin-top: 30px;
+}
